@@ -8,7 +8,7 @@ Rails.application.routes.draw do
   root 'pages#welcome'
   get '/about', to: 'pages#about'
   
-  resources :articles
+  resources :articles 
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
