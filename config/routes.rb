@@ -12,7 +12,7 @@ Rails.application.routes.draw do
   
   get 'signup', to: 'users#new'
   resources :users, except: [:new]
-  
+  resource :users
   
 
   # Example of regular route:
